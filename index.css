@@ -1,13 +1,32 @@
-body {
-  background-image: url(/home/savva/lerning/Start_learn_1/background.png);
-  }
-h1 {
+#photo {
   position: relative;
   height: 200px;
   width: 50%;
   left: 100px;
   bottom: left;
 }
-h2 {
+#text {
   text-align: center;
+  font-family: sans-serif;
+}
+#sait {
+  width: 429px;
+  height: 80px;
+  background: #00008B;
+}
+#mail {
+  width: 429px;
+  height: 80px;
+  background: #0000CD;
+}
+#phone {
+  width: 429px;
+  height: 80px;
+  background: #0000FF;
+}
+#text_first {
+  font-size: 40px;
+}
+#text_two {
+  font-size: 20px;
 }
