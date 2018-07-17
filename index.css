@@ -1,52 +1,63 @@
-#portret {
-  position: relative;
-  height: 200px;
-  left: 100px;
+#main {
+  display: flex;
 }
+
+#left-part {
+  width: 300px;
+}
+
+#right-part {
+  width: 1300px;
+}
+
+#photo-container img {
+  width: 300px;
+  height: auto;
+}
+
+#contacts ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  color: white;
+  font-size: 20px;
+}
+
+.contacts-item img {
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+#sait {
+  background: #0000ff;
+}
+#mail {
+  background: #0000cd;
+}
+#phone {
+  background: #00008b;
+}
+
 #text_first {
-  font-family: sans-serif;
-  position: relative;
-  bottom: 450px;
-  left: 600px;
   font-size: 80px;
-  color: #1E90FFFF;
+  font-family: sans-serif;
+  color: #1e90ffff;
 }
 #text_two {
   font-family: sans-serif;
-  position: relative;
-  left: 600px;
-  bottom: 520px;
   font-size: 40px;
-  color: #696969
+  color: #696969;
 }
 #text_three {
   font-family: sans-serif;
   position: relative;
-  left: 600px;
-  bottom: 530px;
   font-size: 20px;
-}
-#sait {
-  width: 429px;
-  height: 80px;
-  position: relative;
-  left: 100px;
-  top: 260px;
-  background: #0000FF;
-}
-#mail {
-  width: 429px;
-  height: 80px;
-  background: #0000CD;
-  position: relative;
-  left: 100px;
-  top: 260px;
-}
-#phone {
-  width: 429px;
-  height: 80px;
-  background: #00008B;
-  position: relative;
-  left: 100px;
-  top: 260px;
 }
