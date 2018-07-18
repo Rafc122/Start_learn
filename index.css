@@ -1,52 +1,40 @@
-#portret {
-  position: relative;
-  height: 200px;
-  left: 100px;
+#main {
+  display: flex;
 }
-#text_first {
-  font-family: sans-serif;
-  position: relative;
-  bottom: 450px;
-  left: 600px;
-  font-size: 80px;
-  color: #1E90FFFF;
+#photo-container img {
+  width: 300px;
+  height: auto;
 }
-#text_two {
-  font-family: sans-serif;
-  position: relative;
-  left: 600px;
-  bottom: 520px;
-  font-size: 40px;
-  color: #696969
+#contacts ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
 }
-#text_three {
-  font-family: sans-serif;
-  position: relative;
-  left: 600px;
-  bottom: 530px;
+#left-part {
+  width: 300px;
+}
+.contacts-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
+  color: white;
+  height: 80px;
+}
+.contacts-item nl li {
+  list-style-type: none;
+}
+.contacts-item img {
+  margin-right: 30px;
+  width: 30px;
+  height: 30px;
 }
 #sait {
-  width: 429px;
-  height: 80px;
-  position: relative;
-  left: 100px;
-  top: 260px;
-  background: #0000FF;
+ background: #0000ff;
 }
 #mail {
-  width: 429px;
-  height: 80px;
-  background: #0000CD;
-  position: relative;
-  left: 100px;
-  top: 260px;
+  background: #0000ff;
 }
 #phone {
-  width: 429px;
-  height: 80px;
-  background: #00008B;
-  position: relative;
-  left: 100px;
-  top: 260px;
+  background: #0000ff;
 }
