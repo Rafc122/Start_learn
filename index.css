@@ -52,11 +52,13 @@
 }
 #title {
   display: flex;
-  width: 700px;
-  height: 50px;
+  width: 1110px;
+  height: 30px;
   background: #e0dcdb;
   font-size: 20px;
   align-items: center;
+  font-weight: bold;
+  padding-left: 10px;
 }
 
 .text ul {
@@ -92,11 +94,11 @@
   align-items: center;
 }
 #name {
-  font-size: 80px;
+  font-size: 60px;
   color: #009adf;
 }
 #class_of_work {
-  font-size: 40px;
+  font-size: 30px;
 }
 #description {
   font-size: 20px;
@@ -104,12 +106,121 @@
 #info-class {
   background: #e0dcdb;
   width: 370px;
-  height: auto;
-  padding-left: 30px;
+  height: 800px;
+  margin-left: 30px;
 }
 .man-info ul {
   list-style-type: none;
 }
 #personal ul {
   align-content: space-between;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 800px;
+}
+#personal-title {
+ font-weight: bold;
+ padding-left: 40px;
+ padding-top: 20px;
+}
+#skills-title {
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+#software-title {
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+#reference-title {
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#information {
+  font-weight: bold;
+  margin-right: 40px;
+}
+.photo-hobbies img {
+  margin-right: 20px;
+  margin-left: 40px;
+  width: 70px;
+  height: 70px;
+}
+.photo-hobbies {
+  display: flex;
+}
+.photo-hobbies p {
+  text-align: center;
+}
+#info-work_1 {
+  width: 600px;
+}
+#info-work_2 {
+  width: 600px;
+}
+#info-work_3 {
+  width: 600px;
+}
+#info-work_4 {
+  width: 600px;
+}
+#info-work_5 {
+  width: 600px;
+}
+#info-work_6 {
+  width: 600px;
+}
+#info-work_7 {
+  width: 600px;
+}
+#info-work_8 {
+  width: 600px;
+}
+.skills-progress progress {
+  height: 12px;
+}
+.software-progress progress {
+  height: 12px;
+}
+.skills-progress span1 {
+ margin-right: 30px;
+}
+.skills-progress span2 {
+ margin-right: 75px;
+}
+.skills-progress span3 {
+ margin-right: 69px;
+}
+.skills-progress span4 {
+ margin-right: 38px;
+}
+.skills-progress span5 {
+ margin-right: 62px;
+}
+.skills-progress span6 {
+ margin-right: 59px;
+}
+.software-progress span1 {
+  margin-right: 42px;
+ }
+.software-progress span2 {
+ margin-right: 35px;
+}
+.software-progress span3 {
+  margin-right: 66px;
+}
+.software-progress span4 {
+  margin-right: 56px;
+}
+.software-progress span5 {
+  margin-right: 86px;
+}
+.software-progress span6 {
+  margin-right: 110px;
 }
