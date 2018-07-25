@@ -1,0 +1,74 @@
+#left-part {
+    width: 400px;
+}
+#left-part ul {
+  list-style-type: none;
+}
+#photo-container img {
+  width: 370px;
+  height: auto;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+#contacts ul {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 30px;
+  list-style-type: none;
+  width: 370px;
+}
+.contacts-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  color: white;
+  font-size: 20px;
+}
+.contacts-item img {
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+}
+#sait {
+  background: #009adf;
+}
+#mail {
+  background: #007dc5;
+}
+#phone {
+  background: #006a98;
+}
+.item-progress ul li {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+#info-class {
+  background: #e0dcdb;
+  width: 370px;
+  height: 800px;
+  margin-left: 30px;
+}
+.information {
+  font-weight: bold;
+  margin-right: 40px;
+}
+#skills progress {
+  height: 12px;
+}
+#software progress {
+  height: 12px;
+}
+#software span {
+  text-transform: uppercase;
+}
+#name-work {
+  text-transform: uppercase;
+}
+.left-title {
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 20px;
+  text-transform: uppercase;
+ }

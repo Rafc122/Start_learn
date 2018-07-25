@@ -5,33 +5,35 @@
     <meta charset="utf-8">
     <title>Стили</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="left.css">
+    <link rel="stylesheet" href="right.css">
 </head>
 
 <body>
     <div id="main">
         <div id="left-part">
             <div id="photo-container">
-                <img src="./photo.png" alt="photo">
+                <img src="./photo/photo.png" alt="photo">
             </div>
             <div id="contacts">
                 <ul>
                     <li class="contacts-item" id="phone">
-                        <img src="./phone.png" alt="phone icon">
+                        <img src="./photo/phone.png" alt="phone icon">
                         <span>+712138192149</span>
                     </li>
                     <li class="contacts-item" id="mail">
-                        <img src="./phone.png" alt="phone icon">
+                        <img src="./photo/phone.png" alt="phone icon">
                         <span>www.example.com</span>
                     </li>
                     <li class="contacts-item" id="sait">
-                        <img src="./phone.png" alt="phone icon">
+                        <img src="./photo/phone.png" alt="phone icon">
                         <span>example@mail.ru</span>
                     </li>
                 </ul>
             </div>
-            <div class="man-info" id="info-class">
+            <div id="info-class">
                 <div id="personal">
-                    <div id="personal-title">PERSONAL</div>
+                    <div class="left-title">PERSONAL</div>
                     <ul>
                         <li class="personal-info">Birthday : 12th January 1991</li>
                         <li class="personal-info">Relationship : Single</li>
@@ -39,209 +41,283 @@
                         <li class="personal-info">Languages : English,Arabic</li>
                     </ul>
                 </div>
-                <div class="skills-progress">
-                    <div id="skills-title">SKILLS</div>
-                    <ul>
-                        <li><span1>Communication</span1>
-                            <progress value="90" max="100"></progress>
-                        </li>
-                        <li><span2>Creativity</span2>
-                            <progress value="78" max="100"></progress>
-                        </li>
-                        <li><span3>Teamwork</span3>
-                            <progress value="73" max="100"></progress>
-                        </li>
-                        <li><span4>Organizational</span4>
-                            <progress value="60" max="100"></progress>
-                        </li>
-                        <li><span5>Leadership</span5>
-                            <progress value="55" max="100"></progress>
-                        </li>
-                        <li><span6>Teamplayer</span6>
-                            <progress value="55" max="100"></progress>
-                        </li>
-                    </ul>
+                <div id="skills">
+                    <div class="left-title">skills</div>
+                    <div class="item-progress">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span>Communication</span>
+                                </div>
+                                <div>
+                                    <progress value="90" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>Creativity</span>
+                                </div>
+                                <div>
+                                    <progress value="78" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>Teamwork</span>
+                                </div>
+                                <div>
+                                    <progress value="73" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>Organizational</span>
+                                </div>
+                                <div>
+                                    <progress value="60" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>Leadership</span>
+                                </div>
+                                <div>
+                                    <progress value="55" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>Teamplayer</span>
+                                </div>
+                                <div>
+                                    <progress value="55" max="100"></progress>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="software-progress">
-                    <div id="software-title">SOFTWARE</div>
-                    <ul>
-                        <li> <span1>PHOTOSHOP</span1>
-                            <progress value="88" max="100"></progress>
-                        </li>
-                        <li><span2>ILLUSTRATOR</span2>
-                            <progress value="75" max="100"></progress>
-                        </li>
-                        <li><span3>INDESIGN</span3>
-                            <progress value="70" max="100"></progress>
-                        </li>
-                        <li><span4>MS OFFICE</span4>
-                            <progress value="58" max="100"></progress>
-                        </li>
-                        <li><span5>HTML:5</span5>
-                            <progress value="50" max="100"></progress>
-                        </li>
-                        <li><span6>CSS</span6>
-                            <progress value="50" max="100"></progress>
-                        </li>
-                    </ul>
+                <div id="software">
+                    <div class="left-title">software</div>
+                    <div class="item-progress">
+                        <ul>
+                            <li>
+                                <div>
+                                    <span>photoshop</span>
+                                </div>
+                                <div>
+                                    <progress value="88" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>illustrator</span>
+                                </div>
+                                <div>
+                                    <progress value="75" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>indesign</span>
+                                </div>
+                                <div>
+                                    <progress value="70" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>ms office</span>
+                                </div>
+                                <div>
+                                    <progress value="58" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>html:5</span>
+                                </div>
+                                <div>
+                                    <progress value="50" max="100"></progress>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>css</span>
+                                </div>
+                                <div>
+                                    <progress value="50" max="100"></progress>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <div id="reference-title">REFERENCE</div>
+                <div id="reference">
+                    <div class="left-title">reference</div>
                     <ul>
                         <li>
-                            <span id="information">ГОЛОВА-ЛАСТИК</span>
+                            <span class="information" id="name-work">голова-ластик</span>
                         </li>
                         <li>
-                            <span id="information">Director, Matrix media limited</span>
+                            <span class="information">Director, Matrix media limited</span>
                         </li>
                         <li>
-                            <span id="information">Phone:</span> 829324217817</li>
+                            <span class="information">Phone:</span> 829324217817</li>
                         <li>
-                            <span id="information">Email:</span> lastic@gmail.com</li>
+                            <span class="information">Email:</span> lastic@gmail.com</li>
                     </ul>
                     <ul>
                         <li>
-                            <span id="information">ГОЛОВА-ЛАСТИК</span>
+                            <span class="information" id="name-work">голова-ластик</span>
                         </li>
                         <li>
-                            <span id="information">Web developer, Design mate LTD</span>
+                            <span class="information">Web developer, Design mate LTD</span>
                         </li>
                         <li>
-                            <span id="information">Phone:</span> 829324217817</li>
+                            <span class="information">Phone:</span> 829324217817</li>
                         <li>
-                            <span id="information">Email:</span> lastic@gmail.com</li>
+                            <span class="information">Email:</span> lastic@gmail.com</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div id="right-part">
-            <div class="text">
-                <div id="short-info">
-                    <div>
-                        <ul>
-                            <li class="info" id="name">БОРИС ХРЕН ПОПАДЁШЬ</li>
-                            <li class="info" id="class_of_work">ДИЗАЙНЕР</li>
-                            <li class="info" id="description">Бла-бла-бла</li>
-                        </ul>
-                    </div>
-                    <div id="experience">
-                        <div id="title">
-                            EXPERIENCE
-                        </div>
-                        <div id="lead_1">
-                            <ul>
-                                <li id="title-work_1">
-                                    <span id="information">Lead wed Designer</span>
-                                </li>
-                                <li id="date_1">2015-2017</li>
-                            </ul>
-                            <ul>
-
-                                <li id="work_1">SOFT DESIGN STUDIOS</li>
-                                <li id="info-work_1">Fuck shit in fucking airplane</li>
-                            </ul>
-                        </div>
-                        <div id="lead_2">
-                            <ul>
-                                <li id="title-work_1">
-                                    <span id="information">Senior Web Designer</span>
-                                </li>
-                                <li id="date_2">2013-2015</li>
-                            </ul>
-                            <ul>
-                                <li id="work_2">WEB TECH LTD</li>
-                                <li id="info-work_2">Shit</li>
-                            </ul>
-                        </div>
-                        <div id="lead_3">
-                            <ul>
-                                <li id="title-work_3">
-                                    <span id="information">Lead wed Designer</span>
-                                </li>
-                                <li id="date_3">2010-2013</li>
-                            </ul>
-                            <ul>
-                                <li id="work_3">DEV CREATIVE SOLUTION</li>
-                                <li id="info-work_3">Shit</li>
-                            </ul>
-                        </div>
-                        <div id="lead_4">
-                            <ul>
-                                <li id="title-work_4">
-                                    <span id="information">Senior Web Designer</span>
-                                </li>
-                                <li id="date_4">2008-2010</li>
-                            </ul>
-                            <ul>
-                                <li id="work_4">DEV CREATIVE SOLUTION</li>
-                                <li id="info-work_4">Shit in train</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="education">
-                        <div id="title">
-                            EDUCATION
-                        </div>
-                        <div id="lead_5">
-                            <ul>
-                                <li id="title-work_5">
-                                    <span id="information">Name of university</span>
-                                </li>
-                                <li id="date_5">2010-2013</li>
-                            </ul>
-                            <ul>
-
-                                <li id="work_5">CERTIFICATE OF WEB TRAINIG</li>
-                                <li id="info-work_5">Fuck</li>
-                            </ul>
-                        </div>
-                        <div id="lead_6">
-                            <ul>
-                                <li id="title-work_6">
-                                    <span id="information">Name of university</span>
-                                </li>
-                                <li id="date_6">2007-2009</li>
-                            </ul>
-                            <ul>
-                                <li id="work_6">BECHELOR OF ART DIRECTOR</li>
-                                <li id="info-work_6">Shit in fucking shit.</li>
-                            </ul>
-                        </div>
-                        <div id="lead_7">
-                            <ul>
-                                <li id="title-work_7">
-                                    <span id="information">Name of university</span>
-                                </li>
-                                <li id="date_7">2007-2009</li>
-                            </ul>
-                            <ul>
-                                <li id="work_8">HIGHER SECENDERY EXAMINITION</li>
-                                <li id="info-work_8">Anothe snit</li>
-                            </ul>
-                        </div>
-                    </div>
+            <div>
+                <ul>
+                    <li class="info" id="name">борис хрено попадёшь</li>
+                    <li class="info" id="class_of_work">дизайнер</li>
+                    <li class="info" id="description">Бла-бла-бла</li>
+                </ul>
+            </div>
+            <div id="experience">
+                <div class="right-title">
+                    experience
+                </div>
+                <div class="item-info">
+                    <ul>
+                        <li>
+                            <div>
+                                <p><span>Lead wed Designer</span></p>
+                                <p>2015-2017</p>
+                            </div>
+                            <div>
+                                <p>SOFT DESIGN STUDIOS</p>
+                                <p>Fuck shit in fucking airplane</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item-info">
+                    <ul>
+                        <li>
+                            <div>
+                                <p><span>Senior Web Designer</span></p>
+                                <p>2013-2015</p>
+                            </div>
+                            <div>
+                                <p>WEB TECH LTD</p>
+                                <p>Shit</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item-info">
+                    <ul>
+                        <li>
+                            <div>
+                                <p><span>Lead wed Designer</span></p>
+                                <p>2010-2013</p>
+                            </div>
+                            <div>
+                                <p>DEV CREATIVE SOLUTION</p>
+                                <p>Shit</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item-info">
+                    <ul>
+                        <li>
+                            <div>
+                                <p><span>Senior Web Designer</span></p>
+                                <p>2008-2010</p>
+                            </div>
+                            <div>
+                                <p>DEV CREATIVE SOLUTION</p>
+                                <p>Shit in train</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="education">
+                <div class="right-title">
+                    education
+                </div>
+                <div class="item-info">
+                    <ul>
+                        <li>
+                            <div>
+                                <p><span>Name of university</span></p>
+                                <p>2010-2013</p>
+                            </div>
+                            <div>
+                                <p>CERTIFICATE OF WEB TRAINIG</p>
+                                <p>Fuck</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item-info">
+                    <ul>
+                        <li>
+                            <div>
+                                <p><span>Name of university</span></p>
+                                <p>2007-2009</p>
+                            </div>
+                            <div>
+                                <p>BECHELOR OF ART DIRECTOR</p>
+                                <p>Shit in fucking shit.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item-info">
+                    <ul>
+                        <li>
+                            <div>
+                                <p><span>Name of university</span></p>
+                                <p>2007-2009</p>
+                            </div>
+                            <div>
+                                <p>HIGHER SECENDERY EXAMINITION</p>
+                                <p>Anothe snit</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                 <div id="hobbies">
-                    <div id="title">
-                        HOBBIES
+                    <div class="right-title">
+                        hobbies
                     </div>
-                    <div class="photo-hobbies">
-                        <div>
-                            <img src="./67037.svg" alt=""></img>
-                            <p>swim</p>
-                        </div>
-                        <div>
-                            <img src="./130276.svg" alt=""></img>
-                            <p>bike</p>
-                        </div>
-                        <div>
-                            <img src="./icons8-музыка-50.png" alt=""></img>
-                            <p>music</p>
-                        </div>
-                        <div>
-                            <img src="./icons8-камера-50.png" alt=""></img>
-                            <p>camera</p>
-                        </div>
+                    <div id="photo-hobbies">
+                        <ul>
+                            <div>
+                                <img src="./photo/67037.svg" alt=""></img>
+                                <p>swim</p>
+                            </div>
+                            <div>
+                                <img src="./photo/130276.svg" alt=""></img>
+                                <p>bike</p>
+                            </div>
+                            <div>
+                                <img src="./photo/icons8-музыка-50.png" alt=""></img>
+                                <p>music</p>
+                            </div>
+                            <div>
+                                <img src="./photo/icons8-камера-50.png" alt=""></img>
+                                <p>camera</p>
+                            </div>
+                        </ul>
                     </div>
                 </div>
             </div>
