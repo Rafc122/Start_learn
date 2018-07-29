@@ -1,5 +1,7 @@
 #right-part {
-    width: 880px;
+    display: block;
+    max-width: 880px;
+    width: 100%;
     padding-top: 50px;
   }
 #right-part ul {
@@ -21,6 +23,9 @@
   width: 100%;
   padding-left: 20px;
   font-size: 19px;
+}
+.block-info {
+  padding-right: 190px;
 }
 .item-info ul li {
   display: flex;;
@@ -44,7 +49,8 @@
 }
 .info {
   flex-direction: column;
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
   padding-left: 20px;
 }
 #photo-hobbies img {
@@ -54,6 +60,7 @@
   height: 50px;
 }
 #photo-hobbies ul {
+  margin: 0px;
   display: flex;
 }
 #photo-hobbies p {
