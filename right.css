@@ -13,7 +13,7 @@
     width: 0%;
   }
   .item-info-right {
-    flex-direction: column;
+    margin-left: 0px;
   }
 }
 #right-part ul {
@@ -32,21 +32,26 @@
   padding-left: 50px;
   font-weight: bold;
 }
-
 .item-info {
   display: flex;
   font-size: 21px;
 }
 .item-info-left {
-  padding-left: 20px;
-  width: 18%;
+  padding-left: 50px;
+  width: 20%;
 }
 .item-info-left span {
   font-weight: bold;
   font-size: 17px;
 }
 .item-info-right {
-  margin-left: 100px;
+  margin-left: 77px;
+}
+.item-info-right span {
+  font-size: 17px;
+}
+.item-info-right p {
+  font-size: 20px;
 }
 #name {
   font-size: 55px;
