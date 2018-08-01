@@ -3,6 +3,19 @@
   width: 100%;
   padding-top: 10px;
 }
+@media (max-width: 700px) {
+  #right-part {
+    max-width: 420px;
+    width: 100%;
+  }
+  .item-info-left {
+    padding-left: 0px;
+    width: 0%;
+  }
+  .item-info-right {
+    flex-direction: column;
+  }
+}
 #right-part ul {
   list-style-type: none;
 }
