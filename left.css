@@ -76,8 +76,8 @@
 #name-work {
   text-transform: uppercase;
 }
-.left-title {
-  font-weight: bold;
+.left-title h1 {
+  font-weight: 550;
   padding-left: 20px;
   padding-top: 20px;
   text-transform: uppercase;

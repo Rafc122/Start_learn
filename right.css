@@ -14,6 +14,7 @@
   }
   .item-info-right {
     margin-left: 0px;
+    margin-top: 30px;
   }
 }
 #right-part ul {
@@ -30,7 +31,7 @@
 }
 .right-title h3 {
   padding-left: 50px;
-  font-weight: bold;
+  font-weight: 550;
 }
 .item-info {
   display: flex;
