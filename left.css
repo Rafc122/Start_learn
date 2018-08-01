@@ -84,7 +84,12 @@
   font-size: 23px;
 }
 .personal-info {
+  display: flex;
   font-size: 19px;
+}
+
+.personal-info-title {
+  width: 40%;
 }
 #personal ul {
   padding-left: 20px;
