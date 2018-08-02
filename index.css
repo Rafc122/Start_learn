@@ -9,11 +9,13 @@
 body {
   margin: 0px;
 }
+
 @media (max-width: 750px) {
   #main {
     max-width: 420px;
     width: 100%;
     padding: 0px;
     flex-direction: column;
+    margin: auto;
   }
 }
