@@ -42,8 +42,11 @@
 }
 
 .item-info {
+  padding-top: 8px;
+  margin-bottom: 22px;
   display: flex;
   font-size: 21px;
+  padding-bottom: 6px;
 }
 
 .item-info-left {
@@ -66,6 +69,7 @@
 
 .item-info-right p {
   font-size: 20px;
+  margin-top: 12px;
 }
 
 #name {
