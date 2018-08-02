@@ -1,7 +1,7 @@
 #right-part {
   max-width: 880px;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 @media (max-width: 700px) {
   #right-part {
@@ -10,7 +10,6 @@
   }
   .item-info-left {
     padding-left: 0px;
-    width: 0%;
   }
   .item-info-right {
     margin-left: 0px;
@@ -23,7 +22,7 @@
 .right-title {
   display: flex;
   width: 100%;
-  height: 42px;
+  height: 47px;
   background: #e0dcdb;
   font-size: 20px;
   align-items: center;
@@ -55,27 +54,27 @@
   font-size: 20px;
 }
 #name {
-  font-size: 55px;
+  font-size: 56px;
   font-weight: normal;
   color: #009adf;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
 #class_of_work {
-  font-size: 25px;
+  font-size: 27px;
   font-weight: normal;
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin-top: 5px;
 }
 #description {
-  font-size: 20px;
-  margin-bottom: 0px;
+  font-size: 21px;
+  margin-bottom: 2px;
 }
 #info {
   max-width: 800px;
   width: 100%;
   padding-left: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   box-sizing: border-box;
 }
 #photo-hobbies img {
