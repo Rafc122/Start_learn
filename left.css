@@ -2,20 +2,24 @@
   max-width: 410px;
   width: 100%;
 }
+
 #left-part ul {
   list-style-type: none;
 }
+
 #photo-container img {
   max-width: 410px;
   width: 100%;
   height: auto;
 }
+
 #contacts ul {
   margin: 0px;
   padding: 0px;
   max-width: 410px;
   width: 100%;
 }
+
 .contacts-item {
   display: flex;
   align-items: center;
@@ -23,6 +27,7 @@
   color: white;
   font-size: 20px;
 }
+
 .contacts-item img {
   margin-right: 30px;
   margin-left: 30px;
@@ -30,31 +35,39 @@
   width: 100%;
   height: 30px;
 }
+
 #sait {
   background: #009adf;
 }
+
 #mail {
   background: #007dc5;
 }
+
 #phone {
   background: #006a98;
 }
+
 .item-progress ul li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
 }
+
 .item-progress ul {
   font-size: 19px;
   padding-left: 20px;
 }
+
 .item-progress {
   align-items: center;
 }
+
 .item-progress progress {
-  margin-right: 30px;
-  width: 160px;
+  margin-right: 20px;
+  width: 186px;
 }
+
 #info-class {
   display: flex;
   flex-direction: column;
@@ -63,21 +76,27 @@
   width: 100%;
   height: auto;
 }
+
 .information {
   font-weight: bold;
 }
+
 #skills progress {
-  height: 10px;
+  height: 8px;
 }
+
 #software progress {
-  height: 10px;
+  height: 8px;
 }
+
 #software span {
   text-transform: uppercase;
 }
+
 #name-work {
   text-transform: uppercase;
 }
+
 .left-title h1 {
   font-weight: 550;
   padding-left: 20px;
@@ -85,17 +104,20 @@
   text-transform: uppercase;
   font-size: 23px;
 }
+
 .personal-info {
   display: flex;
   font-size: 19px;
 }
 
 .personal-info-title {
-  width: 40%;
+  width: 46%;
 }
+
 #personal ul {
   padding-left: 20px;
 }
+
 #reference ul {
   font-size: 19px;
   padding-left: 20px;
